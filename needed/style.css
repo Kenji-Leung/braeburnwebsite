@@ -47,6 +47,15 @@ nav {
     border-top: none;
     animation: fadeEffect 1s;
 }
+.nav_button {
+    background-color: white;
+    padding: 5px 5px;
+    border: 3px solid black;
+    border-color: black;
+    border-radius: 3px;
+    container: center;
+}
+
 
 @keyframes fadeEffect {
     from {opacity: 0;}

@@ -3,9 +3,13 @@
     height: 100px;
 }
 
-nav {
-    background-color: green;
-    overflow: hidden;
+.nav_button {
+    background-color: white;
+    padding: 5px 5px;
+    border: 3px solid black;
+    border-color: black;
+    border-radius: 3px;
+    container: center;
 }
 
 .button {
@@ -13,5 +17,11 @@ nav {
     padding: 30px 20px;
     background-color: lightgreen;
     color: black;
+    border-radius: 5px;
+}
+
+.testimonial {
+    background-color: lightgray;
+    padding: 20px;
     border-radius: 5px;
 }
