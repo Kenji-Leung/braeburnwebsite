@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Information page</title>
+        <script src="./needed/functions.js"></script>
+        <link rel="stylesheet" href="./needed/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div id="nav">
+                    <button onclick="location.href='home.html'">
+                        <a href="home.html">Home</a>
+                    </button>
+                    <button onclick="location.href='about.html'">
+                        <a href="about.html">About</a>
+                    </button>
+                    <button onclick="location.href='plants.html'">
+                        <a href="plants.html">Grow at Home</a>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <h1>
+            <a href="home.html">
+                <img src="./pictures/BBC.png" alt="Braenburn Collective logo" width="400">
+            </a>
+        </h1>
+        <h2>Beginners guide to Growing Plants at Home</h2>
+        <hr>
+        <p>This is how you grow plants at home:</p>
+        <ol>   
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit placeat porro neque, assumenda excepturi fugiat aliquid suscipit cumque expedita animi laborum consequatur voluptas culpa quo voluptates laudantium, ipsa consequuntur accusantium?</li>
+            <br>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem fugit sapiente corrupti nisi repudiandae, veritatis accusamus temporibus accusantium esse illum, quasi expedita. Soluta voluptate aliquid facere, eaque deserunt veniam maxime.</li>
+            <br>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique debitis beatae eligendi cum placeat pariatur consectetur minus, tempore harum officiis distinctio necessitatibus nostrum rem quo qui est animi, aut modi!</li>
+        </ol>
+        <a href="https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/houseplant-care/" target="_blank">Learn more about plant care</a>
+        <ol></ol>
+        <img src="./pictures/kitty.jpg" alt="A cute kitty" width="400">
+        <hr>
+        <p>Some beginner friendly plants to grow:</p>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'plant 1')" id="defaultOpen">Plant 1</button>
+            <button class="tablinks" onclick="openTab(event, 'plant 2')">Plant 2</button>
+            <button class="tablinks" onclick="openTab(event, 'plant 3')">Plant 3</button>
+        </div>
+        <div id="plant 1" class="tabcontent">
+            <h3>Plant 1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet est quia autem deserunt eum sapiente inventore quibusdam quaerat impedit repellat soluta voluptate velit culpa vitae cupiditate voluptatibus, consectetur ut esse!</p>
+        </div>
+        <div id="plant 2" class="tabcontent">
+            <h3>Plant 2</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni voluptatibus pariatur, voluptates magnam sed repudiandae doloribus. Nulla architecto quo dignissimos exercitationem quos hic aut, laborum vel mollitia velit optio voluptate!</p>
+        </div>
+        <div id="plant 3" class="tabcontent">
+            <h3>Plant 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ipsa! Ut sequi praesentium magnam quaerat illum et soluta debitis dicta, dignissimos repudiandae placeat perferendis tempore excepturi illo beatae omnis iste.</p>
+        </div>
+        <script>
+            document.getElementById("defaultOpen").click();
+        </script>
+    </body>
+</html>
