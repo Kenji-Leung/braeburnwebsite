@@ -3,8 +3,15 @@
     height: 100px;
 }
 
-
 nav {
     background-color: green;
     overflow: hidden;
+}
+
+.button {
+    display: inline;
+    padding: 30px 20px;
+    background-color: lightgreen;
+    color: black;
+    border-radius: 5px;
 }
